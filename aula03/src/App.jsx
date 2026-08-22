@@ -1,6 +1,7 @@
 
 import Exercicio01 from "./componentes/exercicio01"
 import Exercicio02 from "./componentes/exercicio02"
+import Exercicio03 from "./componentes/exercicio03"
 
 //não é app minusculo pois o react diz que quando a gente cria um componente, tem que nomealo com a primeira letra em maiusculo
 export default function App () {
@@ -10,6 +11,7 @@ export default function App () {
     <>
     <Exercicio01 />
     <Exercicio02 />
+    <Exercicio03 />
    </>
   )
 }
